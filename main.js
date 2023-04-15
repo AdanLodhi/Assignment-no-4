@@ -82,7 +82,7 @@ function getKeys(obj) {
 }
 let myObject = { applePrice: 250, sugarcanePrice: 100, wheatPrice: 45 };
 let keys = getKeys(myObject);
-console.log(keys); // ["apple", "cat", "bus"]
+console.log(keys); // ["applePrice", "sugarcanePrice", "wheatPrice"]
 console.log("------------");
 // End
 
